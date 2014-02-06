@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -51,6 +52,9 @@ ROOT_URLCONF = 'bloggy.urls'
 
 WSGI_APPLICATION = 'bloggy.wsgi.application'
 
+# Template Bloggy dir
+TEMPLATE_DIRS = (
+    '/home/cley/realpython/django/bloggy/templates')
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
